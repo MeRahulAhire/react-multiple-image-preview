@@ -32,7 +32,7 @@ const App = () => {
 				<input type="file" id="file" multiple onChange={handleImageChange} />
 				<div className="label-holder">
 					<label htmlFor="file" className="label">
-						<i class="material-icons">add_a_photo</i>
+						<i className="material-icons">add_a_photo</i>
 					</label>
 				</div>
 				<div className="result">{renderPhotos(selectedFiles)}</div>
